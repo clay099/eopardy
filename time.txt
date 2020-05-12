@@ -1,0 +1,39 @@
+========================================================================
+start time: 9:30
+end time:   9:40
+time taken: 10min
+total time: 10min
+actions:    read documents, gain understanidng of what is to occur set up time sheet
+========================================================================
+
+========================================================================
+start time: 10:15
+end time:   10:50
+time taken: 35min
+total time: 45min
+actions:    work on getCategoryIds function
+========================================================================
+
+========================================================================
+start time: 11:00
+end time:   1:00
+time taken: 2hr
+total time: 2hr 45min
+actions:    completed following funcitons, shuffle, getCategoryIds, getCategory) worked on fillTable function data is appearing, need to ensure clue tracker is changing
+========================================================================
+
+========================================================================
+start time: 1:20
+end time:   2:20
+time taken: 1hr
+total time: 3hr 45 min
+actions:    data is now appearing in the correct places & button starts new game. Click handler is working need to clean up the logic so that when td is clicked it will show the question then answer
+========================================================================
+
+========================================================================
+start time: 2:30
+end time:   4:20
+time taken: 1hr 50min
+total time: 5hr 35min
+actions:    cleaned up the logic for the td click. further cleaned up code to remove previous trials. Found bug with how the questions and answers were being passed through where if there was a "" within the question or answer the text would stop short. Corrected js so that this double quotations would not interrupt the code function
+========================================================================
