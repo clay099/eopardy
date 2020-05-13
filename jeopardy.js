@@ -86,6 +86,7 @@ async function fillTable(categoryID, catObj) {
             $("tbody:last-child").append($td);
         }
     }
+    $("#jeopardy").removeClass("hidden");
 }
 
 // /** Handle clicking on a clue: show the question or answer.
@@ -111,11 +112,13 @@ $("#restart").on("click", async function setupAndStart(evt) {
     $("thead").empty();
     // empty tbody
     $("tbody").empty();
+    $("#jeopardy").addClass("hidden");
     // starts the function to fill in the tables, provides category ids and category contents functions
     await fillTable(getCategoryIds, getCategory);
 });
 
 /** On page load, setup and start & add event handler for clicking clues */
+
 $(document).ready(() => {
     // on page load create the table
     fillTable(getCategoryIds, getCategory);

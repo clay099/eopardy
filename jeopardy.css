@@ -29,3 +29,7 @@ td {
 td:hover {
     cursor: pointer;
 }
+
+.hidden {
+    display: none;
+}
